@@ -1,3 +1,7 @@
+@import "bootstrap.less";
+
+@primary = #0383c0;
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -5,4 +9,11 @@ body {
 
 .navbar {
   margin-bottom: 20px;
+  background: @primary url(../img/navbar.png) repeat-x;
+  border: 1px #ccc solid;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>a.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default a:hover {
+    background: none;
+    color: @primary !important;
+    font-weight: bold;
 }
