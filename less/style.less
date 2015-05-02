@@ -1,13 +1,12 @@
 @import "bootstrap.less";
 
-@primary = #0383c0;
+@primary: #0383c0;
 
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .navbar {
+  margin-top: 30px;
   margin-bottom: 20px;
   background: @primary url(../img/navbar.png) repeat-x;
   border: 1px #ccc solid;
@@ -16,4 +15,27 @@ body {
     background: none;
     color: @primary !important;
     font-weight: bold;
+}
+
+.logo {
+    width: 100%;	
+    margin: 40px 0 0 0;
+    font-family: "Oswald", sans-serif;
+}
+.primary {
+    color: @primary;
+}
+.subtext {
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0 45px;
+}
+header form {
+    float: right;
+    margin-top: 30px; 
+    background: @primary;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px;
 }
