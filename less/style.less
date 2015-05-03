@@ -63,7 +63,7 @@ header form {
     background: #ccc;
     list-style: none;
     color: #666;
-    padding: 0px 10px;
+    padding: 15px 10px;
     padding-left: 20px;
     margin-bottom: 5px;
     width: 100%;
@@ -78,7 +78,6 @@ header form {
 }
 .tablist a {
     display: block; /* so that pointing anywhere in the padding counts as pointing on the link */
-    line-height: 50px;
     color: #666;
     text-decoration: none;
 }
@@ -89,7 +88,7 @@ header form {
     background: @primary;
     color: #fff;
     overflow: hidden;	
-    height: 270px;
+    height: 275px;
     padding-top: 20px;
 }
 .slide-img {
@@ -102,6 +101,12 @@ header form {
     margin-left: 40px;
 }
 
+@media(max-width: 960px) {
+    header form {
+        width: 100% !important;
+    }
+}
+
 @media(max-width: 768px) {
     .slide-img {
         display: none;
@@ -109,5 +114,20 @@ header form {
     .tab-text {
         float: none;
 	width: 80%;
+    }
+    .navbar a {
+        color: #fff !important;
+    }
+    .navbar a:hover {
+        color: #ccc !important;
+    }
+    .navbar-form {
+        display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    .tab-content {
+        height: 320px;
     }
 }
