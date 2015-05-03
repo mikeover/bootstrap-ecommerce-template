@@ -73,12 +73,58 @@
     
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <h1>Navbar example</h1>
-      <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-      <p>
-        <a class="btn btn-lg btn-primary" href="../../components/index.html#navbar" role="button">View navbar docs &raquo;</a>
-      </p>
-    </div>
+	<!-- Nav tabs -->
+	<ul class="tablist" role="tablist">
+	  <li role="presentation" class="active"><a href="#featured-item" aria-controls="featured-item" role="tab" data-toggle="tab">Featured Item</a></li>
+	  <li role="presentation"><a href="#best-seller" aria-controls="best-seller" role="tab" data-toggle="tab">Best Seller</a></li>
+	  <li role="presentation"><a href="#discount" aria-controls="discount" role="tab" data-toggle="tab">Summer Discount</a></li>
+	  <li role="presentation"><a href="#premium" aria-controls="premium" role="tab" data-toggle="tab">Premium Product</a></li>
+	  <li role="presentation"><a href="#gift-idea" aria-controls="gift-idea" role="tab" data-toggle="tab">Gift Idea</a></li>
+	</ul>
+	<!-- Tab panes -->
+	<div class="tab-content">
+	  <div role="tabpanel" class="tab-pane active" id="featured-item">
+	    <div class="tab-text">
+	      <h2>Apple iPhone 6</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat, magna ornare euismod consectetur, dolor arcu finibus erat, in finibus ex elit quis nunc. Aliquam erat volutpat. Cras posuere feugiat ligula nec lacinia.</p>
+	      <a href="product.html" class="btn btn-default">Read More</a>
+	    </div> <!-- tab-text -->
+	    <img class="slide-img" src="img/iphone.png"/>
+	  </div>
+	  <div role="tabpanel" class="tab-pane" id="best-seller">
+	    <div class="tab-text">
+	      <h2>Xbox One</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat, magna ornare euismod consectetur, dolor arcu finibus erat, in finibus ex elit quis nunc. Aliquam erat volutpat. Cras posuere feugiat ligula nec lacinia.</p>
+	      <a href="product.html" class="btn btn-default">Read More</a>
+	    </div> <!-- tab-text -->
+	    <img class="slide-img" src="img/xbox.png"/>
+	  </div>	    
+	  <div role="tabpanel" class="tab-pane" id="discount">
+	    <div class="tab-text">
+	      <h2>Playstation 4</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat, magna ornare euismod consectetur, dolor arcu finibus erat, in finibus ex elit quis nunc. Aliquam erat volutpat. Cras posuere feugiat ligula nec lacinia.</p>
+	      <a href="product.html" class="btn btn-default">Read More</a>
+	    </div> <!-- tab-text -->
+	    <img class="slide-img" src="img/ps4.png"/>
+	  </div>
+	  <div role="tabpanel" class="tab-pane" id="premium">
+	    <div class="tab-text">
+	      <h2>Microsoft Surface</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat, magna ornare euismod consectetur, dolor arcu finibus erat, in finibus ex elit quis nunc. Aliquam erat volutpat. Cras posuere feugiat ligula nec lacinia.</p>
+	      <a href="product.html" class="btn btn-default">Read More</a>
+	    </div> <!-- tab-text -->
+	    <img class="slide-img" src="img/surface.png"/>
+	  </div>
+	  <div role="tabpanel" class="tab-pane" id="gift-idea">
+	    <div class="tab-text">
+	      <h2>Vizio Smart TV</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat, magna ornare euismod consectetur, dolor arcu finibus erat, in finibus ex elit quis nunc. Aliquam erat volutpat. Cras posuere feugiat ligula nec lacinia.</p>
+	      <a href="product.html" class="btn btn-default">Read More</a>
+	    </div> <!-- tab-text -->
+	    <img class="slide-img" src="img/tv.png"/>
+	  </div>
+	</div>
+    </div> <!-- jumbotron -->
 
     <section id="products" class="">
       <div class="row">

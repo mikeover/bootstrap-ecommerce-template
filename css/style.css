@@ -6707,3 +6707,70 @@ header form {
   width: 130px;
   height: 130px;
 }
+.jumbotron {
+  overflow: auto;
+  /* encapsulates everything inside of it */
+
+  padding: 0 !important;
+}
+.jumbotron p {
+  font-size: 15px;
+}
+.tablist {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+}
+.tablist li {
+  background: #ccc;
+  list-style: none;
+  color: #666;
+  padding: 0px 10px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 15px;
+}
+.tablist li.active {
+  background: #0383c0;
+  color: #fff;
+}
+.tablist li.active a {
+  color: #fff;
+}
+.tablist a {
+  display: block;
+  /* so that pointing anywhere in the padding counts as pointing on the link */
+
+  line-height: 50px;
+  color: #666;
+  text-decoration: none;
+}
+.tab-content {
+  float: right;
+  width: 70%;
+  background: #0383c0;
+  color: #fff;
+  overflow: hidden;
+  height: 270px;
+  padding-top: 20px;
+}
+.slide-img {
+  float: right;
+  width: 50%;
+}
+.tab-text {
+  float: left;
+  width: 40%;
+  margin-left: 40px;
+}
+@media (max-width: 768px) {
+  .slide-img {
+    display: none;
+  }
+  .tab-text {
+    float: none;
+    width: 80%;
+  }
+}
