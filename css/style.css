@@ -6667,6 +6667,9 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+a {
+  color: #0383c0;
+}
 .navbar {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -6764,6 +6767,16 @@ header form {
   width: 40%;
   margin-left: 40px;
 }
+.main-image {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  height: 60px;
+  background: #f4f4f4;
+  padding-top: 20px;
+  margin-top: 50px;
+}
 @media (max-width: 960px) {
   header form {
     width: 100% !important;
@@ -6791,7 +6804,4 @@ header form {
   .tab-content {
     height: 320px;
   }
-}
-.main-image {
-  width: 100%;
 }
